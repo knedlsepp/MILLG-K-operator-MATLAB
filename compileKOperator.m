@@ -1,6 +1,6 @@
 [pathstrmain, name, ext] = fileparts(mfilename('fullpath'));
 currentfolder = pwd;
-mayrfolder = ([pathstrmain,'/K-operator-mayr']);
+mayrfolder = pathstrmain;
 cd(mayrfolder);
 try
     % It seems that the following does the job from within matlab.
